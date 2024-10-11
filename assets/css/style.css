@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 48px);
+}
+a {
+  text-decoration: none;
+}
+:root {
+  /* background-color: #865d36; */
+  /* color: #fefaf0; */
+  /* color: #ac8968; */
+  /* textcolor: #272424; */
+}
+/* ====================Header===================== */
+
+.header {
+  background-color: rgb(31, 28, 28);
+}
+.logo {
+  width: 6rem;
+  height: auto;
+}
+.header-name {
+  display: none;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.navbar-list {
+  display: flex;
+}
+.navbar-link {
+  font-family: "Manrope", "Open Sans", "Helvetica Neue", Helvetica, "sans-serif";
+  font-size: 1.6rem;
+  color: #fefaf0;
+  font-weight: 300;
+  line-height: 1.75;
+  padding: 8px 20px;
+}
+.navbar-link--active {
+  color: #ac8968;
+  text-shadow: 0 0 0 currentColor;
+}
